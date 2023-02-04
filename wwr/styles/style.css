@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:ital,wght@1,300&display=swap');
 
 #content {
     max-width: 1600px;
@@ -17,12 +18,17 @@
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .logo {
     width: 60px;
 }
 
 .icon {
     width: 60px;
+    padding-top: 10px;
 }
 
 .button-box {
@@ -33,6 +39,10 @@
     background-color: #CAD3D9;
     color: #535F67;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -40,24 +50,48 @@
     color: #2C0CFF;
 }
 
+.card-img {
+    border: 10px solid #2C0CFF;
+}
+
 .msg {
     background-color: #C1D3DF;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #535F67;
+    font-family: 'Revalia', cursive, 'Rock Salt';
 }
 
 .msg p {
     color: black; 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .home-title {
     color: #535F67;
+    font-family: 'Revalia', cursive, 'Rock Salt';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card, .mountains {
+    margin: 200px 0;
 }
 
 body {
     background-color: #D3D3D3;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -72,6 +106,7 @@ nav a {
     text-align: center;
     color: black; 
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -83,9 +118,15 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 footer {
     background-color: #C1D3DF;
     color: #2C0CFF;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -103,4 +144,8 @@ footer a {
 
 footer a:hover {
     color: #2C0CFF;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
