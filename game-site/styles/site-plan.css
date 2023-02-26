@@ -72,6 +72,14 @@ p {
     width: 25%;
 }
 
+.img {
+  width: 50%;
+}
+
+.img2 {
+  width: 25%;
+}
+
 .colors {
   width: 100%;
   min-width: 350px;
