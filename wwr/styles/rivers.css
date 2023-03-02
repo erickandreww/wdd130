@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:ital,wght@1,300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+body {
+    background-color: #ededf5;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h4 {
+    color: #21282C;
+}
+
+header {
+    background-color: #849EAF;
+    opacity: 85%;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #CAD3D9;
+    color: #2C0CFF;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #C1D3DF;
+    color: #2C0CFF;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #2C0CFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2C0CFF;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
