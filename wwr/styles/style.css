@@ -113,7 +113,7 @@
     width: 100%;
 }
 
-.card-img:hoover {
+.card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
