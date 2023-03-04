@@ -215,6 +215,9 @@
     grid-column: 2/6;
     grid-row: 1/2;
     margin-top: -2%;
+    color: #535F67;
+    font-family: 'Revalia', cursive, 'Rock Salt';
+    font-size: 1.2em;
 }
 
 .idaho_text {
@@ -232,6 +235,9 @@
     grid-column: 1/5;
     grid-row: 1/2;
     margin-top: -2%;
+    color: #535F67;
+    font-family: 'Revalia', cursive, 'Rock Salt';
+    font-size: 1.2em;
 }
 
 .utah_text {
@@ -249,6 +255,9 @@
     grid-column: 2/6;
     grid-row: 1/2;
     margin-top: -2%;
+    color: #535F67;
+    font-family: 'Revalia', cursive, 'Rock Salt';
+    font-size: 1.2em;
 }
 
 .arizona_text {
