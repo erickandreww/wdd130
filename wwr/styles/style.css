@@ -358,6 +358,12 @@ footer .social img {
         display: block;
         height: auto;
     }
+
+    #main_head {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
     nav, footer {
         flex-direction: column;
     }
@@ -390,7 +396,46 @@ footer .social img {
         display: block;
         margin: 0 auto;
     }
+
+    .idaho .img {
+        margin-bottom: 5%;
+    }
+
+    .utah .img {
+        margin-bottom: 5%;
+    }
+
+    .arizona .img {
+        margin-bottom: 5%;
+    }
+
     footer {
         margin-top: 25px;
     }
+    
+    .idaho .utah .arizona {
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.idaho {
+    grid-column: 1/6;
+    grid-row: 3/4;
+    padding-bottom: 10%;
+    display: inline;
+}
+
+.utah {
+    grid-column: 1/6;
+    grid-row: 4/5;
+    padding-bottom: 5%;
+    display: inline;
+}
+
+.arizona {
+    grid-column: 1/6;
+    grid-row: 5/6;
+    padding-bottom: 5%;
+    display: inline;
+}
 }
