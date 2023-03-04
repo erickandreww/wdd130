@@ -399,17 +399,20 @@ footer .social img {
 
     .idaho .img {
         margin-bottom: 5%;
-        max-width: auto;
+        margin: 50px auto;
+        width: 60%;
     }
 
     .utah .img {
         margin-bottom: 5%;
-        max-width: 70%;
+        margin: 50px auto;
+        width: 60%;
     }
 
     .arizona .img {
         margin-bottom: 5%;
-        max-width: 70%;
+        margin: 50px auto;
+        width: 60%;
     }
 
     footer {
@@ -417,11 +420,6 @@ footer .social img {
         max-width: 70%;
     }
     
-    .idaho .utah .arizona {
-    display: block;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
     .idaho {
         grid-column: 1/6;
         grid-row: 3/4;
