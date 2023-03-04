@@ -417,7 +417,7 @@ footer .social img {
 
     footer {
         margin-top: 25px;
-        max-width: 70%;
+        max-width: auto;
     }
     
     .idaho {
