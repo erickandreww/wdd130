@@ -399,20 +399,20 @@ footer .social img {
 
     .idaho .img {
         margin-bottom: 5%;
-        margin: 50px screen auto;
-        width: 60%;
+        margin: 50px auto;
+        width: 60% screen;
     }
 
     .utah .img {
         margin-bottom: 5%;
         margin: 50px auto;
-        width: 60%;
+        width: 60% screen;
     }
 
     .arizona .img {
         margin-bottom: 5%;
         margin: 50px auto;
-        width: 60%;
+        width: 60% screen;
     }
 
     footer {
