@@ -224,6 +224,8 @@
     grid-column: 2/6;
     grid-row: 1/2;
     margin-top: 10%;
+    margin-left: 2.5%;
+    text-align: left;
 }
 
 .utah .img {
@@ -244,6 +246,8 @@
     grid-column: 1/5;
     grid-row: 1/2;
     margin-top: 10%;
+    margin-left: 2.5%;
+    text-align: left;
 }
 
 .arizona .img {
@@ -264,6 +268,8 @@
     grid-column: 2/6;
     grid-row: 1/2;
     margin-top: 10%;
+    margin-left: 2.5%;
+    text-align: left;
 }
 
 .img {
