@@ -1,0 +1,20 @@
+.logo {
+    width: 75px;
+}
+
+.hero-img {
+    width: 1000px;
+}
+
+.ultimate-img, .classic-img, .arcade-img {
+    width: 250px;
+}
+
+.bottom-img {
+    width: 600px;
+    height: 350px;
+}
+
+.footer-logo {
+    width: 75px;
+}
