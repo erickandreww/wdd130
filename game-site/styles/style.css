@@ -116,14 +116,6 @@ body {
     grid-column: 8/10;
 }
 
-.invite {
-    grid-column: 3/10;
-    grid-row: 5/8;
-    margin-left: -10%;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 .ultimate-img, .classic-img, .arcade-img {
     width: 115%;
     height: 90%;
@@ -145,6 +137,14 @@ section h3 {
     text-decoration: underline;
 }
 
+.invite {
+    grid-column: 3/10;
+    grid-row: 5/8;
+    margin-left: -10%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .invite-img {
     margin-top: 110px;
     width: 100%;
@@ -158,26 +158,24 @@ section h3 {
 
 .invite-background {
     grid-row: 1/2;
-    padding: 35px;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 6%;
     grid-column: 1;
-    margin-top: 60%;
+    margin-left: 1.5%;
+    margin-bottom: 6%;
+    margin-top: 56%;
     text-align: center;
     font-size: 1.5em;
-    background:#AABD8C;
+    background: #191731;
     opacity: 35%;
     z-index: -1;
 }
 
 .invite-msg {
     grid-row: 1/2;
-    padding: 35px;
     grid-column: 1;
+    margin-left: 1%;
     margin-top: 58%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 110%;
     color:#4EE2BD;
 }
 
