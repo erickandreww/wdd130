@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #4EE2BD;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "MedievalSharp", "Kelly Slab";
+  --heading-font: "MedievalSharp", "Kelly Slab", "serif";
   --paragraph-font: Macondo, Kelly Slab, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */

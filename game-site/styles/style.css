@@ -42,7 +42,7 @@ nav a:hover {
 
 .home-title {
     color: #4EE2BD;
-    font-family: "MedievalSharp", "Kelly Slab";
+    font-family: "MedievalSharp", "Kelly Slab", "serif";
     font-size: 4.2em;
     text-align: center;
     margin-top: 10px;
@@ -72,7 +72,7 @@ nav a:hover {
 
 body h2 {
     color: #191731;
-    font-family: "MedievalSharp", "Kelly Slab";
+    font-family: "MedievalSharp", "Kelly Slab", "serif";
     text-align: center;
     font-size: 2.2em;
     margin-top: 5%;
