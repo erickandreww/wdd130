@@ -243,9 +243,10 @@ section h3 {
 }
 
 .ult-msg, .clas-msg, .arc-msg {
-    grid-column: 5/7;
+    grid-column: 5/8;
     grid-row: 1/2;
-    margin-top: 50px;
+    margin-top: 70px;
+    font-size: 1.2em;
 }
 
 
